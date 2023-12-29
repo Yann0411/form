@@ -1,0 +1,167 @@
+.header {
+    display: flex;
+    background-color: red;
+    align-items: baseline;
+
+}
+
+.header__logo {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px;
+
+}
+
+.header__tagline {
+    color: white;
+}
+
+.section {
+    display: flex;
+    background-color: grey;
+    align-items: baseline;
+    gap: 10px;
+    color: white;
+    justify-content: center;
+    padding: 10px;
+}
+
+.container {
+    max-width: 650px;
+    margin: 10px auto;
+}
+
+.table {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.table__Figurine {
+    box-shadow: 1px 1px 2px gray;
+}
+
+.table__votrePanier {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: larger;
+}
+
+thead {
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+}
+
+td {
+    padding: 15px;
+    font-style: italic;
+}
+
+.spanDeleted {
+    color: red;
+    text-decoration: underline;
+}
+
+.foot__total {
+    font-weight: bold;
+}
+
+.foot__price {
+    font-weight: bolder;
+    color: red;
+    font-size: larger;
+
+}
+
+.sectionLivraison {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input {
+    background-color: rgb(224, 212, 212);
+}
+
+.sectionLivraison__location {
+    margin: 15px;
+}
+
+.sectionLivraison__OptionTitle {
+    margin: 15px;
+}
+
+.div {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+.sectionLivraison__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sectionLivraison__OptionTitle {
+    font-weight: bold;
+}
+
+.reglement {
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 1px 1px 2px gray;
+    margin: 20px 10px 20px 10px;
+    padding-bottom: 20px;
+
+
+}
+
+.reglement__amount {
+    font-weight: bold;
+}
+
+.reglement__red {
+    font-weight: bold;
+    color: red;
+
+}
+
+.gauche__title {
+    font-weight: bold;
+}
+
+.foot__total-Down {
+    margin-top: 20px;
+    display: flex;
+    gap: 80px;
+    font-weight: bold;
+
+}
+
+.foot__total-Down__red {
+    color: red;
+    font-weight: bolder;
+    font-size: larger;
+
+}
+
+.reglementInput {
+    background-color: rgb(224, 212, 212);
+    padding: 20px;
+
+}
+
+.reglementButton {
+    color: white;
+    background-color: red;
+    padding: 20px;
+}
+
+.footer{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>oFig</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            oFig
+        </div>
+        <span class="header__tagline">
+            Figurines et statuettes
+        </span>
+    </header>
+    <section class="section">
+        <div class="section__titre">
+            Votre panier
+        </div>
+        <span class="section__compte-produits">
+            2 produits
+        </span>
+    </section>
+
+
+    <main>
+        <form class="container">
+            <h2 class="table__votrePanier">
+                Votre panier
+            </h2>
+            <section class="table">
+
+
+
+
+
+                <table class=table__Figurine>
+                    <thead>
+                        <tr class="thead">
+                            <th>Figurine</th>
+                            <th>Prix unitaire</th>
+                            <th>Quantité</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Cloud Strife</th>
+                            <td>59 €</td>
+                            <td><input type="number" value="1" name="Strife">
+                                <span class="spanDeleted">supprimer</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Tifa Lockhart</th>
+                            <td>69 €</td>
+                            <td><input type="number" value="1" name="Lockhart">
+                                <span class="spanDeleted">supprimer</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Barret Wallace</th>
+                            <td>69 €</td>
+                            <td><input type="number" value="1" name="Wallace">
+                                <span class="spanDeleted">supprimer</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr class="foot">
+                            <td class="foot__total" colspan="2">Total de la commande</td>
+                            <td class="foot__price">197€</td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+            </section>
+
+            <div class="div">
+                <h2 class="table__votrePanier">
+                    Préférences de livraison
+
+                </h2>
+                <section class="sectionLivraison">
+
+
+                    <div class="gauche">
+                        <h3 class="gauche__title">
+                            Ou souhaitez-vous être livré?
+                        </h3>
+                        <section class="sectionLivraison__location">
+
+                            <div>
+                                <input type="radio" name="adress" id="adress">
+                                <label for="adress">Mon adresse courante</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="adress" id="other" checked>
+                                <label for="other">Autre adresse</label>
+                            </div>
+
+                        </section>
+                        <section class="sectionLivraison__Option">
+                            <h3 class="sectionLivraison__OptionTitle">
+                                Options
+                            </h3>
+                            <div>
+                                <input type="checkbox" name="delivery" id="delivery" checked>
+                                <label for="delivery">Suivi de livraison pas sms (inclus)</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="refund?" id="refund?">
+                                <label for="refund?">Satisfait ou remboursé(+ 2euros</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="garantie" id="garantie">
+                                <label for="garantie">Garantie 2 ans(+ 10 euros</label>
+                            </div>
+
+
+                        </section>
+
+                    </div>
+
+
+                    <div class="droite">
+                        <section class="sectionLivraison__adresse">
+                            <h3>
+                                Adresse
+                            </h3>
+
+                            <div>
+                                <label for="street">Rue</label>
+                            </div>
+                            <input type="text" name="street" id="street" class="input">
+
+
+                            <div>
+                                <label for="postal">Code postal</label>
+                            </div>
+                            <input type="text" name="postal" id="postal" class="input">
+
+
+                            <div>
+                                <label for="town">Ville</label>
+                            </div>
+                            <input type="text" name="town" id="town" class="input">
+
+
+
+                        </section>
+
+                        <section class="sectionLivraison__details">
+                            <h3 class="sectionLivraison__addedDetails">
+                                Information complémentaires
+                            </h3>
+
+                            <div class="sectionLivraison__locationDetails">
+                                <label for="bat">interphone, bâtiment, ect </label>
+                            </div>
+                            <textarea name="bat" id="bat" cols="40" rows="4" class="input"></textarea>
+
+
+
+                        </section>
+
+                    </div>
+
+                </section>
+
+            </div>
+
+          <div class="foot__total-Down">
+            
+            <div class="foot__total-Down__bold">Montant total à régler</div>
+            <span class="foot__total-Down__red">197€</span>
+
+          </div>
+                      
+         
+
+            <section class="reglement">
+          
+              
+            </section>
+            <section class="reglement">
+                <div>
+                    <button type="submit" class="reglementInput">Continuer vos achats</button>
+                </div>
+                <div>
+                    <button type="submit" class="reglementButton">Valider et payer</button>
+                </div>
+            </section>
+
+            <table>
+        </form>
+    </main>
+
+
+    <footer  class="footer">
+ 
+        oFig - toutes les images sont sous copyright SquareEnix
+    
+
+    </footer>
+
+</body>
+
+
+
+</html>
